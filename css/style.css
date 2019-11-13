@@ -139,7 +139,7 @@ nav ul {
 	justify-content: center;
 }
 
-nav li { padding: 10px 30px; }
+nav li { padding: 10px 5px; }
 
 
 
@@ -179,6 +179,8 @@ a:hover { color: black; }
 hr  { 
 	width: 480px; 
 	border-top: 1px solid grey;
+	  margin-top:40px;
+
 }
 
 .siteinfo {border-style: solid;
