@@ -4,8 +4,9 @@
 
 
 body { 
-	font-family: Helvetica, sans-serif;
-	font-size: 16px;
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size: 14px;
+	color: 858585;
 	 }
 
 .portfolio-experiment {
@@ -111,7 +112,7 @@ body {
 
 
 h1, h2, h3, h4 {
-	font-family: Helvetica, sans-serif;
+	font-family: 'Montserrat Alternates', sans-serif;
 }
 
 h1 {
@@ -177,34 +178,42 @@ a:hover { color: black; }
 }
 
 hr  { 
-	width: 480px; 
+	width: 360px; 
 	border-top: 1px solid grey;
-	  margin-top:40px;
+	  margin-top: 40px;
+	  
 
 }
 
 .siteinfo {border-style: solid;
-  border-width: 110px;
+  border-width: 100px;
   border-color: transparent;
 }
 
 .maincontent {
 	margin: auto;
-  width: 80%;
+  width: 100%;
   padding: 10px;
 }
 
+
 footer {
 	padding-top: 50px;
+	font-size: 10px;
+
 }
 
 @media only screen and (min-width: 1024px) {
 
 	.grid {
 
-		width: 60%;
-
+		width: 80%;
 	}
+	img {
+	width: 100%;
+	height: auto;
+}
+
 }
 /*
 font-family: 'Mansalva', cursive;
